@@ -1,0 +1,36 @@
+@import "../icons/iconfont.wxss";
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  background: #23272E;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+  display: flex;
+  align-items: center;
+  box-sizing: content-box;
+}
+.tab-bar-item{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #D9D9D9;
+}
+.tab-bar-item .iconfont{
+  font-size: 40rpx;
+}
+.tab-bar-item:nth-of-type(2) .iconfont{
+  font-size: 34rpx;
+  margin: 4rpx 0;
+}
+.tab-bar-item-text{
+  font-size: 24rpx;
+}
+.selected{
+  color: #C3A582;
+}

@@ -1,0 +1,13 @@
+/**app.wxss**/
+page{
+  height: 100%;
+}
+view{
+  box-sizing: border-box;
+}
+.container {
+  height: calc(100% - constant(safe-area-inset-bottom) - 48px);
+  height: calc(100% - env(safe-area-inset-bottom) - 48px);
+  display: flex;
+  flex-direction: column;
+}

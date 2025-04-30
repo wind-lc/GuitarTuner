@@ -1,0 +1,35 @@
+.container{
+  background-color: #1E2227;
+}
+.guitar-head{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.guitar-head image{
+  height: 100%;
+  margin: 0 20rpx;
+}
+.knob-wrap{
+  position: relative;
+  width: 60rpx;
+}
+.knob-wrap view{
+  border: 1px solid #D9D9D9;
+  color: #D9D9D9;
+  position: absolute;
+  width: 60rpx;
+  height: 60rpx;
+  line-height: 56rpx;
+  text-align: center;
+  font-size: 40rpx;
+}
+.knob-wrap view:nth-of-type(1){
+  top: 28.5%;
+}
+.knob-wrap view:nth-of-type(2){
+  top: 46.5%;
+}
+.knob-wrap view:nth-of-type(3){
+  top: 64.5%;
+}

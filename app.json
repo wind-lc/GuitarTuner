@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/tuner/index",
+    "pages/metronome/index",
+    "pages/login/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/tuner/index",
+        "text": "调音器",
+        "iconPath": "icons/tuner.png",
+        "selectedIconPath": "icons/tuner1.png"
+      },
+      {
+        "pagePath": "pages/metronome/index",
+        "text": "节拍器",
+        "iconPath": "icons/metronome.png",
+        "selectedIconPath": "icons/metronome1.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "NavBar": "/components/NavBar/index"
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "requiredBackgroundModes": ["audio"],
+  "permission": {
+    "scope.record": {
+      "desc": "用于调音时采集麦克风声音"
+    }
+  },
+  "workers": "workers"
+}

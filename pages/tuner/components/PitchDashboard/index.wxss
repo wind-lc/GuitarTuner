@@ -1,0 +1,4 @@
+/* pages/tuner/components/PitchDashboard/index.wxss */
+.canvas{
+  /* border: 1px solid red; */
+}

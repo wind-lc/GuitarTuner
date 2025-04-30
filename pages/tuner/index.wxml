@@ -1,0 +1,21 @@
+<view class="container">
+  <NavBar />
+  <PitchDashboard string="{{string}}" class="pitch-dashboard"/>
+  <view class="guitar-head" style="flex: 1;">
+    <view class="knob-wrap">
+      <view
+        wx:for="{{leftString}}"
+        wx:key="index">
+        <text class="">{{item.label}} {{frequency}}</text>
+      </view>
+    </view>
+    <image src="/images/head.png" mode="heightFix"/>
+    <view class="knob-wrap">
+      <view
+        wx:for="{{rightString}}"
+        wx:key="index">
+        <text class="">{{item.label}}{{pitch}}</text>
+      </view>
+    </view>
+  </view>
+</view>

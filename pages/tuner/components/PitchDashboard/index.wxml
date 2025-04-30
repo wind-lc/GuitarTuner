@@ -1,0 +1,2 @@
+<!--pages/tuner/components/PitchDashboard/index.wxml-->
+<canvas type="2d" id="canvas" class="canvas" style="width: 100%;height: {{height}}px;"/>

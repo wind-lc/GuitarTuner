@@ -1,0 +1,4 @@
+<view class="container">
+    <NavBar></NavBar>
+    节拍器
+</view>
